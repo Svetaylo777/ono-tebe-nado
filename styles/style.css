@@ -123,7 +123,7 @@
 
 .title_line {
   display: block;
-  text-align: left;
+  text-align: start;
 }
 
 .title_line_center {
@@ -190,7 +190,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -359,6 +359,7 @@ padding-top:60px;
 .font__adress p {
   margin:0px;
 }
+
 .footer__address a {
   text-decoration: underline;
   text-underline-offset: 5px;
@@ -376,7 +377,7 @@ padding-top:60px;
   color: #333;
 }
 
-,
+
 .footer__link {
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -386,7 +387,7 @@ padding-top:60px;
 
 .footer__link-active {
   text-decoration: none;
-  padding-top:;
+  padding-top:20px;
 }
 
 /* Правая колонка - социальные сети */
@@ -394,14 +395,13 @@ padding-top:60px;
   display: flex;
   justify-content: flex-end;
   gap: 10px;
- 
 }
 
-.footer__social  {
+.footer__social-logo{
   width: 50px;
   height: 50px;
   margin-right:5px;
   margin-top:1px ;
   margin-bottom: 45px;
-  margin-left: 30px;
+  margin-left: 30px; 
 }
